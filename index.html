@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animated Form</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+	
+	<main id="container">
+		
+		<!-- Separated user input into 3 columns using divs. Labeled using h4 headings. -->
+		<div>
+			<h4 class="label">First Name</h4>
+			<input type="text" name="firstName" placeholder="Jonathan" autocomplete="on">
+
+			<h4 class="label">Last Name</h4>
+			<input type="text" name="lastName" placeholder="Doe" autocomplete="on">
+
+			<h4 class="label">Email</h4>
+			<input type="email" name="email" placeholder="john@doe.com" autocomplete="on">
+
+			<h4 class="label">Country</h4>
+			<select name="country">
+				<option value="">Choose a country</option>
+				<option value="united states">United States</option>
+				<option value="canada">Canada</option>
+				<option value="mexico">Mexico</option>
+				<option value="England">England</option>
+				<option value="france">France</option>
+			</select>
+
+			<h4 class="label">Biography</h4>
+			<textarea name="bio"></textarea>
+		</div>
+
+		<div>
+			<h4 class="label">Phone Number</h4>
+			<input type="text" name="phoneNumber" placeholder="+351 999 999" autocomplete="on">
+
+			<h4 class="label">Affiliations</h4>
+			<textarea name="affiliations"></textarea>
+
+			<h4 class="label">Occupation</h4>
+			<select name="occupation">
+				<option value="">Choose an ocupation</option>
+				<option value="student">Student</option>
+				<option value="lawyer">Lawyer</option>
+				<option value="web developer">Web Developer</option>
+				<option value="teacher">Teacher</option>
+				<option value="contractor">Contractor</option>
+				<option value="other">other</option>
+			</select>
+
+			<h4 class="label" >Cat's Name</h4>
+			<input type="text" name="catsName" placeholder="Kitty">
+
+			<h4 class="label">Favorite Gadget</h4>
+			<input type="text" name="favGadget" placeholder="Annoy-a-tron">
+		</div>
+
+		<div>
+			<h4 class="label">Type of talent</h4>
+			<select name="talent">
+				<option value="">Choose a talent</option>
+				<option value="juggling">Juggling</option>
+				<option value="stilts">Walking on stilts</option>
+				<option value="guitar">Play guitar</option>
+				<option value="sing">Singing</option>
+				<option value="dancing">Dancing</option>
+			</select>
+
+			<h4 class="label">Favorite Drink</h4>
+			<input type="text" name="favDrink" placeholder="Green tea">
+
+			<h4 class="label">Special Power</h4>
+			<input type="text" name="specialPower" placeholder="Anti-gravity">
+
+			<h4 class="label">Weapon of Choice</h4>
+			<input type="text" name="weaponOfChoice" placeholder="Lightsaber">
+
+			<h4 class="label">Comments</h4>
+			<textarea name="comments"></textarea>
+		</div>
+	</main>
+</body>
+</html>
